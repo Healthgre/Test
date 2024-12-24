@@ -16,8 +16,6 @@ public class LoginTest {
     @Test
     public void testLogin() {
         driver.get("C:\\Users\\artem\\IdeaProjects\\Test\\src\\main\\resources\\qa-test (1).html");
-        assert 1 == 1;
-
     }
 
     @AfterClass
