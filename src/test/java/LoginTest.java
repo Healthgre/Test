@@ -56,7 +56,7 @@ public class LoginTest {
 
     @Test
     public void testValidLogin() {
-        // Ввод верных учетных данных
+        // Ввод верных учетных данных и проверка появившихся элементов.
         driver.navigate().refresh();
         driver.findElement(By.id("loginEmail")).sendKeys("test@protei.ru");
         driver.findElement(By.id("loginPassword")).sendKeys("test");
